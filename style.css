@@ -274,6 +274,28 @@ footer ul{
     margin: 0;
 }
 
+footer ul li{
+	list-style: none;
+}
+
+.copyright-container{
+	padding-top: 3rem;
+}
+
+.social-link-container{
+	padding-top: 0px !important;
+
+}
+
+.social-link-container h5{
+	width: fit-content;
+}
+
+.social-link-container h5 a{
+	text-decoration: none;
+	color: inherit;
+}
+
 /* ------------Media queries------------ */
 @media screen and (max-width: 450px){
     #home button{
