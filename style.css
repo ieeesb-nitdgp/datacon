@@ -19,13 +19,13 @@ body{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(#b32206,#fffe07); 
+    background: linear-gradient(#3706b3,#e607ff); 
     border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(#b32306c0,#fffe07c0);
+    background: linear-gradient(#3706b3bb,#e607ffbb);
 }
 
 /*---------------Scroll-Bar end--------------*/
@@ -44,14 +44,14 @@ body{
 /* -------------Navbar------------ */
 
 nav{
-    box-shadow: 0px 0px 20px #ffffff8c;
+    box-shadow: 0px 0px 0px #ffffff8c;
     position: fixed;
     width: 100%;
 }
 
 .navbar{
     padding: 1rem 0;
-    
+    background-color: transparent !important;
 }
 
 .navbar .navbar-nav{
@@ -63,7 +63,7 @@ nav{
 }
 
 #nav li a:hover{
-    color: #e2b82d !important;
+    color: #ee81ff !important;
 }
 
 nav button.btn:hover, #home button:hover{
@@ -76,7 +76,7 @@ nav button.btn:hover, #home button:hover{
 
 /* --------------Home-------------- */
 #home{
-    background-image: linear-gradient( 0deg, #000000d0, #000000d0), url('img/bg-overlay.png');
+    background-image: linear-gradient( 90deg, #000000db, #00000000), url(img/ai.png);
     background-color: #121416;
     background-position: center;
     background-attachment: fixed;
@@ -101,7 +101,7 @@ nav button.btn:hover, #home button:hover{
 #home h1{
     font-family: 'Noto Sans SC', sans-serif;
     font-size: 6rem;
-    text-shadow: 0px 0px 20px gold;
+    text-shadow: 0px 0px 20px #e900ff;
     backdrop-filter: blur(5px);
 }
 
@@ -117,7 +117,7 @@ nav button.btn:hover, #home button:hover{
 #about{
     position: relative;
     overflow: hidden;
-    background-color: black;
+    background-color: rgb(6, 3, 26);
     min-height: 100vh;
 }
 
@@ -133,7 +133,7 @@ nav button.btn:hover, #home button:hover{
 
 #about .col-md-6 img{
     width: 100%;
-    box-shadow: 0px 5px 5px #ffffff8c, 0px 15px 30px #ffffff52;
+    box-shadow: 0px 5px 15px #ffffff8c, 0px 15px 30px #ffffff52;
     border-radius: 15px;
     transform: rotate3d(0, 5, 5, 350deg);
 }
@@ -150,7 +150,7 @@ nav button.btn:hover, #home button:hover{
     font-size: 3.5rem;
 }
 
-#about .head h2 span{
+#about .head h2 span, #about .desc p span{
     color: darkorange;
 }
 
